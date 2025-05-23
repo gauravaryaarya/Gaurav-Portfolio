@@ -39,7 +39,7 @@ const Navbar = () => {
                     <a href="https://x.com/Gauravarya98985" target="_blank" rel="noopener noreferrer">
                         <FaSquareXTwitter className="hover:text-black transition duration-300" />
                     </a>
-                    <a href="https://leetcode.com/Gauravarya98985" target="_blank" rel="noopener noreferrer">
+                    <a href="https://leetcode.com/u/gauravaryaarya/" target="_blank" rel="noopener noreferrer">
                         <FaCode className="hover:text-black transition duration-300" />
                     </a>
                 </div>
