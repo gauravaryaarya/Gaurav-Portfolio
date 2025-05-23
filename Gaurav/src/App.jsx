@@ -1,7 +1,21 @@
-export default function App() {
+import React from 'react'
+import Page1 from './Pages/Page1'
+import Me from './components/me'
+import About from './components/about'
+import Technology from './components/technology'
+import Experience from './components/experience'
+
+
+function App() {
   return (
-    <h1 className="text-3xl  font-bold underline">
-      Hello world!
-    </h1>
+    <>
+    <Page1/>
+    <Me/>
+    <About/>
+    <Technology/>
+    <Experience/>
+    </>
   )
 }
+
+export default App

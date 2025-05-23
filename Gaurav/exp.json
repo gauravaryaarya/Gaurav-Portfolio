@@ -1,0 +1,18 @@
+[{
+    "year":"Jul 2024 - Aug 2024",
+    "role":"Full Stack Developer Intern ",
+    "Company":"Microtek International Pvt Ltd",
+    "discription":" Created a tool that analyzes planetary positions to generate astrological insights.Integrated logical algorithms to ensure accurate astrological predictions.    ",
+    "tech": ["React Js","Mongo DB","Node Js"]
+    
+},
+{
+    "year":"Sep 2023 - Mar 2024",
+    "role":"Full Stack Developer Intern",
+    "Company":"SAZ Enterprises",
+    "discription":"Developed a structured portal to monitor staff check-ins and attendance records efficiently.Implemented a digital system to track spare parts, manage stock levels, and automatebilling"
+,    "tech": ["React Js","Mongo DB","Node Js"]
+}
+
+
+]
