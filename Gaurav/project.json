@@ -1,0 +1,24 @@
+
+
+[
+
+    {
+        "img": "/abled.png",
+        "name": "Project Abled (Unified Disability Dashboard)",
+        "disc": "Tech-Stack : Vue, Python Developed an AI-powered accessibility platform enabling independent digital access for users with disabilities through braille input, voice assistance, and screen recognition saving hours of daily navigation effort"
+    },
+    {
+        "img": "/vaidika.webp",
+        "name": "Vaidika (Medical Data Tracking System)",
+        "disc": "Developed a user-focused health management platform, 'Vaidika', enabling simplified interpretation of medical reports, trend tracking, and personalized wellness recommendations to support timely and informed health decisions"
+    
+
+    },
+    {
+        "img": "/beaware.png",
+        "name": "BeAware (Mental health and well-being web-App)",
+        "disc": "ReactJS, Python Flask API, Open Web UI, Ollama, Firebase Integrated LLM-based chatbot using Ollama with Open Web UI and contributed to frontend development, enhancing automation."
+    
+
+    }
+]

@@ -1,17 +1,18 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import exp from '../../exp.json';
 
 const Experience = () => {
   return (
     <div>
-      <div className='border-b border-neutral-200 pb-5'>
+      <div className='border-b border-neutral-700 pb-5'>
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <h2 className='my-14 text-4xl text-center'> Experience </h2>
+          <h2 className='my-14 text-4xl text-center text-white'> Experience </h2>
         </motion.div>
 
         <div>
@@ -22,7 +23,7 @@ const Experience = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2, ease: "easeOut" }}
               viewport={{ once: true }}
-              className="lg:gap-24 mb-8 flex flex-col lg:flex-row lg:justify-center items-center lg:items-start"
+              className="lg:gap-24 mb-8 flex flex-col lg:flex-row lg:justify-center items-center pt-0 lg:items-start"
             >
               {/* Year Animation */}
               <motion.div
@@ -32,7 +33,7 @@ const Experience = () => {
                 viewport={{ once: true }}
                 className='w-full lg:w-1/4 text-center lg:text-left'
               >
-                <p className="mb-2 text-sm text-neutral-400">{e.year}</p>
+                <p className="mb-2 text-sm text-gray-400 italic">{e.year}</p>
               </motion.div>
 
               {/* Role, Company, and Description Animation */}
@@ -43,10 +44,10 @@ const Experience = () => {
                 viewport={{ once: true }}
                 className='flex flex-col items-center lg:w-1/2 lg:items-start text-center lg:text-left'
               >
-                <h6 className='mb-2 font-semibold'>
-                  {e.role} - <span className='text-sm text-purple-100'>{e.Company}</span>
+                <h6 className='mb-2 font-semibold text-cyan-400'>
+                  {e.role} - <span className='text-blue-400 font-normal'>{e.Company}</span>
                 </h6>
-                <p>{e.discription}</p>
+                <p className='text-gray-300 leading-relaxed'>{e.description}</p>
 
                 {/* Tech Stack Animation */}
                 <div className='flex flex-wrap'>
@@ -58,7 +59,7 @@ const Experience = () => {
                         whileInView={{ scale: 1, opacity: 1 }}
                         transition={{ duration: 0.5, delay: techIndex * 0.1 }}
                         viewport={{ once: true }}
-                        className='text-sm text-purple-100 mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-600 flex'
+                        className='text-sm mr-2 mt-4 rounded bg-cyan-900 bg-opacity-50 text-cyan-300 px-2 py-1 font-medium flex'
                       >
                         {tech}
                       </motion.span>

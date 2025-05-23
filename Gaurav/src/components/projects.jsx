@@ -1,10 +1,11 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import project from '../project.json';
+import project from '../../project.json';
 
 const Projects = () => {
   return (
-    <div className='border-b border-neutral-200 pb-5'>
+    <div className='border-b pl-[200px] border-neutral-200 pb-5'>
      
       <motion.div
         initial={{ opacity: 0, y: -20 }}

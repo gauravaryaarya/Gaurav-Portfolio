@@ -1,18 +1,23 @@
-[{
-    "year":"Jul 2024 - Aug 2024",
-    "role":"Full Stack Developer Intern ",
-    "Company":"Microtek International Pvt Ltd",
-    "discription":" Created a tool that analyzes planetary positions to generate astrological insights.Integrated logical algorithms to ensure accurate astrological predictions.    ",
-    "tech": ["React Js","Mongo DB","Node Js"]
-    
-},
-{
-    "year":"Sep 2023 - Mar 2024",
-    "role":"Full Stack Developer Intern",
-    "Company":"SAZ Enterprises",
-    "discription":"Developed a structured portal to monitor staff check-ins and attendance records efficiently.Implemented a digital system to track spare parts, manage stock levels, and automatebilling"
-,    "tech": ["React Js","Mongo DB","Node Js"]
-}
-
-
+[
+  {
+    "year": "July 2024 - August 2024",
+    "role": "Full Stack Developer Intern",
+    "Company": "Microtek International Pvt Ltd",
+    "description": "Collaborated with a cross-functional team to design and develop responsive frontend pages for a Vendor Onboarding Portal using ReactJS, improving user experience and usability. Implemented Firebase Authentication to secure the portal, reducing unauthorized access by 100% and saving 2-3 hours of daily manual verification boosting onboarding efficiency by 40%",
+    "tech": ["React Js", "Firebase", "Tailwind CSS"]
+  },
+  {
+    "year": "July 2024 - August 2024",
+    "role": "AI Intern",
+    "Company": "IBM SkillsBuild",
+    "description": "Contributed to the development of the FitHub website, a centralized platform for fitness guidance, completing 100% of the project milestones on time. Developed and integrated the FitBuddy chatbot, an AI-driven virtual fitness companion, improving chatbot response time by 30%. Successfully deployed the website and chatbot within 5 Weeks.",
+    "tech": ["HTML", "IBM Watson", "CSS"]
+  },
+  {
+    "year": "November 2023 - March 2024",
+    "role": "Full Stack Developer Intern",
+    "Company": "SAZ Enterprises",
+    "description": "Developed a structured portal to monitor staff check-ins and attendance records efficiently. Implemented a digital system to track spare parts, manage stock levels, and automate billing",
+    "tech": ["React Js", "Mongo DB", "Node Js"]
+  }
 ]
